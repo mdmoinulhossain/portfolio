@@ -9716,7 +9716,7 @@ textarea.form-control {
   display: inline-block;
   padding: 10px 10px;
   margin: 40px 0;
-  color:#03e9f4;
+  color:#ff3300;
   font-size: 24px;
   text-decoration: none;
   text-transform:uppercase;
@@ -9732,12 +9732,12 @@ textarea.form-control {
   filter: hue-rotate(110deg);
 }
 .mmbt a:hover{
-   background: #03e9f4;
+   background: #ff3300;
    color: black;
-   box-shadow: 0 0 5px #03e9f4,
-   0 0 25px #03e9f4,
-   0 0 50px #03e9f4,
-   0 0 200px #03e9f4;
+   box-shadow: 0 0 5px #ff3300,
+   0 0 25px #ff3300,
+   0 0 50px #ff3300,
+   0 0 200px #ff3300;
 }
 .mmbt a span{
   position: absolute;
@@ -9749,7 +9749,7 @@ textarea.form-control {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg,transparent,#03e9f4);
+  background: linear-gradient(90deg,transparent,#00FFFF);
   animation: animate1 1s linear infinite;
 }
 @keyframes animate1{
@@ -9766,7 +9766,7 @@ textarea.form-control {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg,transparent,#03e9f4);
+  background: linear-gradient(180deg,transparent,#7FFF00);
   animation: animate2 1s linear infinite;
 animation-delay: 0.25s;
 }
@@ -9784,7 +9784,7 @@ animation-delay: 0.25s;
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg,transparent,#03e9f4);
+  background: linear-gradient(270deg,transparent,#00FFFF);
   animation: animate3 1s linear infinite;
   animation-delay: 0.5s;
 }
@@ -9802,7 +9802,7 @@ animation-delay: 0.25s;
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg,transparent,#03e9f4);
+  background: linear-gradient(360deg,transparent,#7FFF00);
   animation: animate4 1s linear infinite;
   animation-delay: 0.75s;
 }

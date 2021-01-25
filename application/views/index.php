@@ -22,16 +22,16 @@
 			            <p class="mmbt">
 			            	<a href="#contact-section" class="mmbt" data-text="Hire Me">
 			            		<span></span>
-								<span></span>
-								<span></span>
-								<span></span>
+      								<span></span>
+      								<span></span>
+      								<span></span>
 			            		Hire me
 			            	</a>
 			            	<a href="#projects-section" class="mmbt">
 			            	<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
+      							<span></span>
+      							<span></span>
+      							<span></span>
 			            	My works
 			            	</a>
 			            </p>
