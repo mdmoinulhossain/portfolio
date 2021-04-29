@@ -9816,10 +9816,9 @@ animation-delay: 0.25s;
 }
 
 .mmbt2 {
-
   color:  #ffff66;
-  padding: 10px 10px;
-  margin: 40px 0;
+  padding: 5px 5px;
+  margin: 20px 0;
   border-radius: 5px;
   letter-spacing: 2px;
   font-size: 30px;
@@ -9828,13 +9827,19 @@ animation-delay: 0.25s;
 }
 
 .fixed-bg {
-  background-image: url("../images/new.gif");
-  min-height: 500px;
+  background-image: url("../images/project2.jpg");
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+
+@media only screen and (max-width: 992px) {
+  .mmbt2{
+    font-size: 24px;
+  }
 }
 
 

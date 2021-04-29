@@ -47,7 +47,7 @@
     			<div class="col-md-6 col-lg-5 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(<?php echo base_url(); ?>/assets/images/about.gif);">
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(<?php echo base_url(); ?>/assets/images/project.jpg);">
 	    				</div>
     				</div>
     			</div>
@@ -168,7 +168,7 @@
 
             <h2 class="mb-4">Services & Skills</h2>
 
-            <h1 class="big">Services</h1>
+            <!-- <h1 class="big">Services</h1> -->
           </div>
         </div>
     		<div class="row">
@@ -176,7 +176,7 @@
 					<div class="col-md-6 text-center d-flex ftco-animate">
 						<a href="#" class="services-1">
 							<span class="icon">
-								<i class="flaticon-web-design"></i>
+							<i class="fas fa-palette"></i>
 							</span>
 							<div class="desc">
 								<h3 class="mb-5">Web Design</h3>
@@ -187,15 +187,13 @@
 					<div class="col-md-6 text-center d-flex ftco-animate">
 						<a href="#" class="services-1">
 							<span class="icon">
-								<i class="flaticon-innovation"></i>
+							<i class="fas fa-code"></i>
 							</span>
 							<div class="desc">
 								<h3 class="mb-5">Web Development</h3>
 							</div>
 						</a>
 					</div>
-
-
 				</div>
     	</div>
 
@@ -203,143 +201,61 @@
 
 
 			<div class="container">
-				<div class="row justify-content-center pb-5">
+				<!-- <div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
           	<h1 class="big">Skills</h1>
-
             </div>
-        </div>
-				<div class="row">
-					<div class="col-md-4 animate-box">
+        </div> -->
+				<div class="row">				
+					<div class="col-md-5 animate-box">
+					<h3><i class="fas fa-laptop-code"></i> Frontend Technologies</h3>
 						<div class="progress-wrap ftco-animate">
-							<h3>PHP</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-							    <span>60%</span>
-							  	</div>
-							</div>
+							<h3><i class="fab fa-html5"></i>  HTML5</h3>
+							<h3><i class="fab fa-css3"></i>  CSS3</h3>
+							<h3><i class="fab fa-bootstrap"></i>  Bootstrap</h3>
+							<h3><i class="fab fa-js-square"></i>  javascript</h3>
+							<h3><i class="fas fa-star-half-alt"></i>  jQuery</h3>
+							<h3><i class="fab fa-react"></i> React JS</h3>
+							<h3><i class="fab fa-angular"></i> Angular</h3>
+						</div>
+					</div>
+					<div class="col-md-5 animate-box">
+					<h3><i class="fas fa-code"></i> Backend Technologies</h3>
+						<div class="progress-wrap ftco-animate">
+							<h3><i class="fas fa-server"></i>  PHP</h3>
+							<h3><i class="fab fa-laravel"></i> Laravel</h3>
+							<h3><i class="fas fa-desktop"></i> CodeIgniter</h3>
+							<h3><i class="fas fa-database"></i> Mysql</h3>
+						</div>
+					</div>
+					<div class="col-md-2 animate-box">
+					<h3><i class="fas fa-barcode"></i> CMS</h3>
+						<div class="progress-wrap ftco-animate">
+							<h3><i class="fab fa-wordpress-simple"></i> WordPress</h3>
+							<h3><i class="fab fa-magento"></i> Magento</h3>
+						</div>
+					</div>
+					<div class="col-md-8 animate-box">
+					<h3><i class="fas fa-bullhorn"></i> Digital Marketing and SEO</h3>
+						<div class="progress-wrap ftco-animate">
+							<h3><i class="fas fa-at"></i> Email Marketing</h3>
+							<h3><i class="fas fa-ad"></i> Social Media Marketing</h3>
+							<h3><i class="far fa-images"></i> Image Optimization</h3>
+							<h3><i class="fas fa-laptop-code"></i> Keyword Research</h3>
+							<h3><i class="fab fa-searchengin"></i>  SEO</h3>
 						</div>
 					</div>
 					<div class="col-md-4 animate-box">
+					<h3><i class="fas fa-tools"></i> Others</h3>
 						<div class="progress-wrap ftco-animate">
-							<h3>javascript</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-							    <span>50%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>HTML5</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-							    <span>95%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>CSS3</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-							    <span>90%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>WordPress</h3>
-							<div class="progress">
+						<h3><i class="fas fa-pen"></i> Web Content Writing</h3>
+							<h3><i class="fab fa-adversal"></i> Adobe Photoshop</h3>
+							<!-- <div class="progress">
 							 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
 							  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
 							    <span>70%</span>
 							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>jQuery</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-							    <span>80%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>Laravel</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-							    <span>60%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>CodeIgniter</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-							    <span>60%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>React JS</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-							    <span>50%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>Angular</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-							    <span>40%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>Magento</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-							    <span>70%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 animate-box">
-						<div class="progress-wrap ftco-animate">
-							<h3>Adobe Photoshop</h3>
-							<div class="progress">
-							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-							    <span>60%</span>
-							  	</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -438,54 +354,35 @@
       </div>
     </section>
 
+	
     <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
     	<div class="container">
-				<div class="row d-md-flex align-items-center">
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="1">0</strong>
-                <span>BLOGS</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="6">0</strong>
-                <span>Complete Projects</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="2">0</strong>
-                <span>Customers</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-    <section class="ftco-section ftco-hireme img margin-top" style="background-image: url(<?php echo base_url(); ?>/assets/images/logo.gif);">
-       	<div class="fixed-bg">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-7 ftco-animate text-center">
-						<h2>I'm <span>Available</span> for freelancing</h2>
-						<p class="mmbt2">I seek to work for a successful company that has strong leadership and vision and who recognizes and rewards performers.</p>
-						<p class="mmbt2">
-							Hire me
-						</p>
+			<div class="d-flex justify-content-center">
+				<div class="col-md-4 d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18">
+					<div class="text">
+						<strong class="number" data-number="6">0</strong>
+						<span>Complete Projects</span>
+					</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+      	</div>
+    </section>
+	
+
+	<div class="fixed-bg">
+		<section class="ftco-section margin-top">	
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-7 ftco-animate text-center">
+							<h2># <span>OPEN</span>TOWORK</h2>
+							<p class="mmbt2">I seek to work for a successful company that has strong leadership and vision and who recognizes and rewards performers.</p>
+						</div>
+					</div>
+				</div>		
+		</section>
+	</div>
 
 
 

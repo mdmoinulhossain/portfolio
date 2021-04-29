@@ -16,11 +16,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/magnific-popup.css">
 
     <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/aos.css">
-
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/flaticon.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/icomoon.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/all.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/style.css">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -30,7 +26,7 @@
 	    <div class="container">
 	      <a class="moinul" href="<?php echo base_url(); ?>">Moinul</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu" style="color:#fff;"></span> Menu 
+	        <i class="fas fa-bars" style="color: #fff"></i> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">

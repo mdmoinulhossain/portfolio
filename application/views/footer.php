@@ -56,7 +56,7 @@
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-github"></span>
+          			<span class="icon-github"><i class="fab fa-github"></i></span>
           		</div>
           		<h3 class="mb-4">Github</h3>
 	            <p><a href="https://github.com/mdmoinulhossain" target="_blank">Md. Moinul Hossain</a></p>
@@ -65,7 +65,7 @@
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
+          			<span class="icon-phone2"><i class="fas fa-mobile"></i></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
 	            <p><a href="tel://+8801681894386" target="_blank">+880 168189-4386</a></p>
@@ -74,7 +74,7 @@
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
+          			<span class="icon-paper-plane"><i class="fas fa-envelope"></i></span>
           		</div>
           		<h3 class="mb-4">Email</h3>
 	            <p><a href="mailto:mdmoinulhossain100@gmail.com" target="_blank">MOINUL</a></p>
@@ -83,7 +83,7 @@
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-linkedin"></span>
+          			<span class="icon-linkedin"><i class="fab fa-linkedin"></i></span>
           		</div>
           		<h3 class="mb-4">Linkedin</h3>
 	            <p><a href="https://www.linkedin.com/in/mdmoinulhossain100/" target="_blank">MD.MOINUL HOSSAIN</a></p>
@@ -120,17 +120,17 @@
             	<h2 class="ftco-heading-2">Any Query?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Mohammadpur, Dkaha-1207.</span></li>
-	                <li><a href="tel://+8801681894386" target="_blank"><span class="icon icon-phone"></span><span class="text">+880 168189 4386</span></a></li>
-	                <li><a href="mailto:mdmoinulhossain100@gmail.com" target="_blank"><span class="icon icon-envelope"></span><span class="text">
+	                <li><span class="icon icon-map-marker"><i class="fas fa-map-marker"></i></span><span class="text">Mohammadpur, Dkaha-1207.</span></li>
+	                <li><a href="tel://+8801681894386" target="_blank"><span class="icon icon-phone"><i class="fas fa-mobile"></i></span><span class="text">+880 168189 4386</span></a></li>
+	                <li><a href="mailto:mdmoinulhossain100@gmail.com" target="_blank"><span class="icon icon-envelope"><i class="fas fa-envelope"></i></span><span class="text">
 	                mdmoinulhossain100@gmail.com</span></a></li>
 	              </ul>
 	            </div>
 	            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://www.linkedin.com/in/mdmoinulhossain100/" target="_blank"><span class="icon-linkedin"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/mmoinulh" target="_blank"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://twitter.com/Moinul_100" target="_blank"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://github.com/mdmoinulhossain" target="_blank"><span class="icon-github"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.linkedin.com/in/mdmoinulhossain100/" target="_blank"><span class="icon-linkedin"><i class="fab fa-linkedin"></i></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/mmoinulh" target="_blank"><span class="icon-facebook"><i class="fab fa-facebook-square"></i></span></a></li>
+                <li class="ftco-animate"><a href="https://twitter.com/Moinul_100" target="_blank"><span class="icon-twitter"><i class="fab fa-twitter-square"></i></span></a></li>
+                <li class="ftco-animate"><a href="https://github.com/mdmoinulhossain" target="_blank"><span class="icon-github"><i class="fab fa-github"></i></span></a></li>
                 
               </ul>
             </div>
@@ -142,7 +142,7 @@
           </div>
           <div class="col-md-12 text-center">
               <?php
-              echo "<p>Copyright  &copy; <a href='https://www.facebook.com/mmoinulh/' target='_blank'> Md.Moinul Hossain <a href='https://www.facebook.com/ges100/' target='_blank'> | GoldenEyes Ltd.  </a>   2020 - "   .date("Y") . "</p>";
+              echo "<p>&copy; <a href='https://www.facebook.com/mmoinulh/' target='_blank'> Md.Moinul Hossain  || 2020 - "   .date("Y") . "</p>";
               ?>
           </div>
         </div>
