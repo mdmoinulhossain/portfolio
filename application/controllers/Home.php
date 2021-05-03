@@ -25,10 +25,10 @@ class Home extends CI_Controller {
 		$this->load->view("projects",$data);
 	}
 	
-	public function blogs()
+	public function certificates()
 	{
-		$data['blogs'] = $this->Main_model->get_all_blogs();
-		$this->load->view("blogs",$data);
+		$data['certificates'] = $this->Main_model->get_all_blogs();
+		$this->load->view("certificates",$data);
 	}
 
 	public function form_validation()

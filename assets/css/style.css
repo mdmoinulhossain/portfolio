@@ -1,9 +1,3 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
 :root {
@@ -8867,7 +8861,7 @@ h1, h2, h3, h4, h5,
     margin-bottom: 10px;
     color: #ffbd39; }
   .services-1:hover {
-    background: #009933; }
+    background: #ffc107; }
     .services-1:hover .icon i {
       color: #fff; }
     .services-1:hover h3 {
@@ -9070,11 +9064,11 @@ textarea.form-control {
     font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 4em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 4em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9716,7 +9710,7 @@ textarea.form-control {
   display: inline-block;
   padding: 10px 10px;
   margin: 40px 0;
-  color:#ff3300;
+  color:#ffc107;
   font-size: 24px;
   text-decoration: none;
   text-transform:uppercase;
@@ -9725,19 +9719,17 @@ textarea.form-control {
   letter-spacing: 4px;
 }
 
-.mmbt a:nth-child(1){
-  filter: hue-rotate(290deg);
+.mmbt a:nth-child(1), .mmbt a:nth-child(3){
+  filter: hue-rotate(0deg);
 }
-.mmbt a:nth-child(3){
-  filter: hue-rotate(110deg);
-}
+
 .mmbt a:hover{
-   background: #ff3300;
-   color: black;
-   box-shadow: 0 0 5px #ff3300,
-   0 0 25px #ff3300,
-   0 0 50px #ff3300,
-   0 0 200px #ff3300;
+   background: #fff;
+   color: #003366;
+   box-shadow: 0 0 5px #fff,
+   0 0 25px #fff,
+   0 0 50px #fff,
+   0 0 200px #fff;
 }
 .mmbt a span{
   position: absolute;
@@ -9827,7 +9819,7 @@ animation-delay: 0.25s;
 }
 
 .fixed-bg {
-  background-image: url("../images/project2.jpg");
+  background-image: url("../images/back.jpg");
   height: 600px;
   background-attachment: fixed;
   background-position: center;
@@ -9892,3 +9884,35 @@ animation-delay: 0.25s;
     background-repeat:no-repeat;
   }
 }
+
+h2.mb-4{
+  color:#ffc107;
+}
+
+
+#certificate-section figure {
+  border: 1px #262626 solid;
+  padding: 10px;
+  margin: auto;
+  overflow: hidden;
+  background: rgba(255, 193, 7, 0.5);
+  position: relative;
+  }
+  #certificate-section figure img{
+    max-width: 100%;
+    display: block;
+    position: relative;
+  }
+  #certificate-section figure img:hover{
+    transform: translateY(-50px);
+    transition: 0.8s;
+  }
+  #certificate-section figure figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffc107;
+    color: #003366;
+    width: 100%;
+    text-align: center;
+  }

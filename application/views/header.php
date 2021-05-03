@@ -37,7 +37,7 @@
 	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services & Skills</span></a></li>
 	          
 	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
+	          <li class="nav-item"><a href="#certificate-section" class="nav-link"><span>Licenses & Certifications</span></a></li>
             <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 	        </ul>
 	      </div>
